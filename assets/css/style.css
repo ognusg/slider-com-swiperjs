@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,10 @@
   }
   
   h1{
-    padding: 80px;
+    padding: 5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
   }
   
   img {
@@ -32,7 +36,8 @@
   }
   
   .swiper {
-    height: 500px;
+    height: 600px;
+    text-align: center;
   }
   
   .swiper-slide {
@@ -41,9 +46,15 @@
     align-items: center;
     justify-content: center;
   }
+
   
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     .swiper {
-      height: 270px;
+      height: 240px;
+      width: 340px;
+    }
+
+    h1{
+      font-size: 2rem;
     }
   }
